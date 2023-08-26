@@ -7,3 +7,4 @@ test.py
 /dist
 /build
 /octopype.egg-info
+.pytest_cache

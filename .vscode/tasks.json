@@ -6,7 +6,8 @@
             "type": "shell",
             "command": "make",
             "args": [
-                "build"
+                "build",
+                "-B"
             ],
             "windows": {
                 "command": "echo Sadly, there is no make in Windows."

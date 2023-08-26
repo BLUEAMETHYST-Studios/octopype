@@ -1,6 +1,5 @@
 import octopype
-import sys
 
-github = octopype.OctoPype(sys.argv[1])
+github = octopype.OctoPype(open("tests/token.txt").read())
 
 print(github.account.info().bio)
