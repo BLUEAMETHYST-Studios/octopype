@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build package",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "build"
+            ],
+            "windows": {
+                "command": "echo Sadly, there is no make in Windows."
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

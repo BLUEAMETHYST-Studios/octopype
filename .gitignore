@@ -1,0 +1,9 @@
+# Private
+token.txt
+
+# Not needed / binary
+__pycache__
+test.py
+/dist
+/build
+/octopype.egg-info
